@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PersonCard from "./components/PersonCard";
 
 function App() {
   return (
     <div className="App">
-      <PersonCard/>
+      <PersonCard firstName="Angelo" lastName="Liwanag" age={21} hairColor="Black"/>
     </div>
   );
 }
